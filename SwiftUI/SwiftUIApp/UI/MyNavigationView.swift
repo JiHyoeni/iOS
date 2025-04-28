@@ -20,7 +20,12 @@ struct MyNavigationView: View {
                 NavigationLink(value: 3) {
                     Text("3").navigationDestination(for: Int.self, destination: { value in
                         Text("\(value*value)")
-                        
+                            .onAppear {
+                                print("appear")
+                            }
+                            .onDisappear {
+                                print("disappear")
+                            }
                     })
                 }
                 .navigationTitle("navigationTitle")
