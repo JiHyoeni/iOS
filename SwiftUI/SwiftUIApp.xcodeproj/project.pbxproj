@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AC30E1EC2DA5F4B500C12F67 /* SwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC30E1EB2DA5F4B500C12F67 /* SwiftUIAppApp.swift */; };
-		AC30E1EE2DA5F4B500C12F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC30E1ED2DA5F4B500C12F67 /* ContentView.swift */; };
 		AC30E1F02DA5F4B900C12F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC30E1EF2DA5F4B900C12F67 /* Assets.xcassets */; };
 		AC30E1F32DA5F4B900C12F67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC30E1F22DA5F4B900C12F67 /* Preview Assets.xcassets */; };
 		ACB35EB42DBB75570004A415 /* State&Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EB32DBB75480004A415 /* State&Binding.swift */; };
@@ -17,12 +16,24 @@
 		ACB35EBA2DBF0B4E0004A415 /* StateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EB92DBF0B450004A415 /* StateObject.swift */; };
 		ACB35EBC2DBF1AE70004A415 /* EnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EBB2DBF1AE20004A415 /* EnvironmentObject.swift */; };
 		ACB35EBE2DBF1DB90004A415 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EBD2DBF1DB30004A415 /* Environment.swift */; };
+		ACB35EC12DBF4C760004A415 /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EC02DBF4C740004A415 /* MyTextView.swift */; };
+		ACB35EC52DBF4D2F0004A415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EC42DBF4D2C0004A415 /* ContentView.swift */; };
+		ACB35EC72DBF50C60004A415 /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EC62DBF50C30004A415 /* MyImageView.swift */; };
+		ACB35EC92DBF54CF0004A415 /* MyStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EC82DBF54C50004A415 /* MyStackView.swift */; };
+		ACB35ECB2DBF55BD0004A415 /* MyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ECA2DBF55B60004A415 /* MyScrollView.swift */; };
+		ACB35ECD2DBF57500004A415 /* ListView&Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ECC2DBF574D0004A415 /* ListView&Section.swift */; };
+		ACB35ECF2DBF59190004A415 /* MyToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ECE2DBF59170004A415 /* MyToggle.swift */; };
+		ACB35ED12DBF596E0004A415 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ED02DBF596B0004A415 /* MyTabView.swift */; };
+		ACB35ED32DBF5E660004A415 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ED22DBF5E620004A415 /* MyTextField.swift */; };
+		ACB35ED52DBF63B40004A415 /* MyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ED42DBF63AF0004A415 /* MyProgressView.swift */; };
+		ACB35ED72DBF64BC0004A415 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ED62DBF64B80004A415 /* MyButton.swift */; };
+		ACB35ED92DBF6A5A0004A415 /* MyNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35ED82DBF6A560004A415 /* MyNavigationView.swift */; };
+		ACB35EDB2DC044B70004A415 /* MyShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB35EDA2DC044B30004A415 /* MyShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC30E1E82DA5F4B500C12F67 /* SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC30E1EB2DA5F4B500C12F67 /* SwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAppApp.swift; sourceTree = "<group>"; };
-		AC30E1ED2DA5F4B500C12F67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC30E1EF2DA5F4B900C12F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC30E1F22DA5F4B900C12F67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACB35EB32DBB75480004A415 /* State&Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "State&Binding.swift"; sourceTree = "<group>"; };
@@ -31,6 +42,19 @@
 		ACB35EB92DBF0B450004A415 /* StateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateObject.swift; sourceTree = "<group>"; };
 		ACB35EBB2DBF1AE20004A415 /* EnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObject.swift; sourceTree = "<group>"; };
 		ACB35EBD2DBF1DB30004A415 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		ACB35EC02DBF4C740004A415 /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		ACB35EC42DBF4D2C0004A415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACB35EC62DBF50C30004A415 /* MyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
+		ACB35EC82DBF54C50004A415 /* MyStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStackView.swift; sourceTree = "<group>"; };
+		ACB35ECA2DBF55B60004A415 /* MyScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyScrollView.swift; sourceTree = "<group>"; };
+		ACB35ECC2DBF574D0004A415 /* ListView&Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListView&Section.swift"; sourceTree = "<group>"; };
+		ACB35ECE2DBF59170004A415 /* MyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggle.swift; sourceTree = "<group>"; };
+		ACB35ED02DBF596B0004A415 /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		ACB35ED22DBF5E620004A415 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		ACB35ED42DBF63AF0004A415 /* MyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressView.swift; sourceTree = "<group>"; };
+		ACB35ED62DBF64B80004A415 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		ACB35ED82DBF6A560004A415 /* MyNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationView.swift; sourceTree = "<group>"; };
+		ACB35EDA2DC044B30004A415 /* MyShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,14 +87,10 @@
 		AC30E1EA2DA5F4B500C12F67 /* SwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
-				ACB35EBD2DBF1DB30004A415 /* Environment.swift */,
-				ACB35EBB2DBF1AE20004A415 /* EnvironmentObject.swift */,
-				ACB35EB92DBF0B450004A415 /* StateObject.swift */,
-				ACB35EB72DBF01BD0004A415 /* ObservableObject.swift */,
-				ACB35EB52DBEFD7E0004A415 /* Constant.swift */,
-				ACB35EB32DBB75480004A415 /* State&Binding.swift */,
+				ACB35EDC2DC047160004A415 /* SwiftUI Property */,
+				ACB35EBF2DBF4C6B0004A415 /* UI */,
 				AC30E1EB2DA5F4B500C12F67 /* SwiftUIAppApp.swift */,
-				AC30E1ED2DA5F4B500C12F67 /* ContentView.swift */,
+				ACB35EC42DBF4D2C0004A415 /* ContentView.swift */,
 				AC30E1EF2DA5F4B900C12F67 /* Assets.xcassets */,
 				AC30E1F12DA5F4B900C12F67 /* Preview Content */,
 			);
@@ -83,6 +103,38 @@
 				AC30E1F22DA5F4B900C12F67 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACB35EBF2DBF4C6B0004A415 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ACB35EDA2DC044B30004A415 /* MyShape.swift */,
+				ACB35ED82DBF6A560004A415 /* MyNavigationView.swift */,
+				ACB35ED62DBF64B80004A415 /* MyButton.swift */,
+				ACB35ED42DBF63AF0004A415 /* MyProgressView.swift */,
+				ACB35ED22DBF5E620004A415 /* MyTextField.swift */,
+				ACB35ED02DBF596B0004A415 /* MyTabView.swift */,
+				ACB35ECE2DBF59170004A415 /* MyToggle.swift */,
+				ACB35ECC2DBF574D0004A415 /* ListView&Section.swift */,
+				ACB35ECA2DBF55B60004A415 /* MyScrollView.swift */,
+				ACB35EC82DBF54C50004A415 /* MyStackView.swift */,
+				ACB35EC62DBF50C30004A415 /* MyImageView.swift */,
+				ACB35EC02DBF4C740004A415 /* MyTextView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		ACB35EDC2DC047160004A415 /* SwiftUI Property */ = {
+			isa = PBXGroup;
+			children = (
+				ACB35EBD2DBF1DB30004A415 /* Environment.swift */,
+				ACB35EBB2DBF1AE20004A415 /* EnvironmentObject.swift */,
+				ACB35EB92DBF0B450004A415 /* StateObject.swift */,
+				ACB35EB72DBF01BD0004A415 /* ObservableObject.swift */,
+				ACB35EB52DBEFD7E0004A415 /* Constant.swift */,
+				ACB35EB32DBB75480004A415 /* State&Binding.swift */,
+			);
+			path = "SwiftUI Property";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,14 +207,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB35EC72DBF50C60004A415 /* MyImageView.swift in Sources */,
+				ACB35ECF2DBF59190004A415 /* MyToggle.swift in Sources */,
+				ACB35ECD2DBF57500004A415 /* ListView&Section.swift in Sources */,
+				ACB35ED52DBF63B40004A415 /* MyProgressView.swift in Sources */,
 				ACB35EBA2DBF0B4E0004A415 /* StateObject.swift in Sources */,
+				ACB35ED72DBF64BC0004A415 /* MyButton.swift in Sources */,
 				ACB35EBE2DBF1DB90004A415 /* Environment.swift in Sources */,
 				ACB35EB82DBF01C70004A415 /* ObservableObject.swift in Sources */,
-				AC30E1EE2DA5F4B500C12F67 /* ContentView.swift in Sources */,
+				ACB35ED12DBF596E0004A415 /* MyTabView.swift in Sources */,
 				ACB35EB42DBB75570004A415 /* State&Binding.swift in Sources */,
 				AC30E1EC2DA5F4B500C12F67 /* SwiftUIAppApp.swift in Sources */,
+				ACB35ECB2DBF55BD0004A415 /* MyScrollView.swift in Sources */,
+				ACB35EC52DBF4D2F0004A415 /* ContentView.swift in Sources */,
+				ACB35ED32DBF5E660004A415 /* MyTextField.swift in Sources */,
+				ACB35EC92DBF54CF0004A415 /* MyStackView.swift in Sources */,
+				ACB35EC12DBF4C760004A415 /* MyTextView.swift in Sources */,
 				ACB35EB62DBEFD820004A415 /* Constant.swift in Sources */,
 				ACB35EBC2DBF1AE70004A415 /* EnvironmentObject.swift in Sources */,
+				ACB35ED92DBF6A5A0004A415 /* MyNavigationView.swift in Sources */,
+				ACB35EDB2DC044B70004A415 /* MyShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,6 +27,7 @@ struct StateObjectView: View {
             TextField("글자를 입력해주세요.", text: $text)
                 .padding()
             ChildView2()
+            ChildView2_2()
         }
     }
 }
@@ -46,7 +47,20 @@ struct ChildView2: View {
         }
     }
 }
-
+struct ChildView2_2: View {
+    @State var number = NumberCounter_2()
+    var body: some View {
+        VStack {
+            Text("\(self.number.number)")
+            
+            Button {
+                self.number.increaseNumber()
+            } label: {
+                Text("click")
+            }
+        }
+    }
+}
 struct StateObjectView_Preview: PreviewProvider {
     static var previews: some View {
         StateObjectView()

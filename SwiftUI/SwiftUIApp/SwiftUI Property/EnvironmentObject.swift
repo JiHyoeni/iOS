@@ -24,21 +24,27 @@ struct EnvironmentObjectView: View {
     ///    1세대에서 넣은 데이터를 하위뷰 어디서나 사용 가능
     ///   용도
     ///    앱 전반에 걸쳐 사용되는 데이터 전달에 적합
+    ///
+    ///  Environment
+    ///   선언
+    ///    @EnvironmentObject var num: Type -> @Environment(Type.self) var num
+    ///   사용
+    ///    .environmentObject -> .environment
     @State var text: String = ""
-    @ObservedObject var numberCounter = NumberCounter()
+    var numberCounter = NumberCounter_2()
     
     var body: some View{
         VStack {
             TextField("글자를 입력해주세요.", text: $text)
                 .padding()
-            ChildView3(number: NumberCounter.init())
-                .environmentObject(numberCounter)
+            ChildView3(number: NumberCounter_2.init())
+                .environment(numberCounter)
         }
     }
 }
 
 struct ChildView3: View {
-    @ObservedObject var number: NumberCounter
+    var number: NumberCounter_2
     var body: some View {
         VStack {
             Text("childView3 : \(number.number)")
@@ -48,7 +54,7 @@ struct ChildView3: View {
     }
 }
 struct ChildView4: View {
-    @EnvironmentObject var number: NumberCounter
+    @Environment(NumberCounter_2.self) var number
     var body: some View {
         VStack {
             Text("childView4 : \(number.number)")

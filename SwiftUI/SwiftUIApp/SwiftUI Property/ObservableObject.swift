@@ -14,7 +14,13 @@ class NumberCounter: ObservableObject {
         number += 1
     }
 }
-
+@Observable class NumberCounter_2 {
+    var number: Int = 0
+    
+    func increaseNumber() {
+        number += 1
+    }
+}
 struct ObservableObjectView: View {
     /// Observable
     /// ObservableObject 프로토콜 : 감지되어야 할 클래슨에 붙혀줌
@@ -26,6 +32,7 @@ struct ObservableObjectView: View {
             TextField("글자를 입력해주세요.", text: $text)
                 .padding()
             ChildView()
+            ChildView_2()
         }
     }
 }
@@ -46,7 +53,21 @@ struct ChildView: View {
     }
 }
 
+struct ChildView_2: View {
+    var numberCounter = NumberCounter_2()
+    var body: some View {
+        VStack {
+            Text("\(self.numberCounter.number)")
+            
+            Button {
+                self.numberCounter.increaseNumber()
+            } label: {
+                Text("click")
+            }
 
+        }
+    }
+}
 struct ObservableObjectView_Preview: PreviewProvider {
     static var previews: some View{
         ObservableObjectView()
